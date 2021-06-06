@@ -1,0 +1,51 @@
+@media only screen and (max-width:768px) {
+    .container-1 {}
+
+    .curve {
+        display: none;
+        display: block;
+        visibility: hidden;
+    }
+
+    .hero-content {
+
+        margin-top: 10px;
+
+    }
+
+    #text-hero {
+        font-size: 12px;
+    }
+
+    #button-center {
+        padding: 8px;
+        font-size: 8px;
+        margin: 2%;
+    }
+
+    #text-center-first {
+        font-size: 16px;
+    }
+
+    #adveture-label {
+        font-size: 16px;
+
+
+    }
+
+    #reviews-label {
+        font-size: 16px;
+    }
+
+    .container-4 {
+        top: 0px;
+    }
+
+    #last-text {
+        font-size: 16px;
+    }
+
+    #map {
+        margin-bottom: 80px;
+    }
+}
