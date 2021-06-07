@@ -1,51 +1,115 @@
 @media only screen and (max-width:768px) {
-    .container-1 {}
-
-    .curve {
-        display: none;
-        display: block;
-        visibility: hidden;
-    }
-
-    .hero-content {
-
-        margin-top: 10px;
-
-    }
-
-    #text-hero {
+    .hero-content p {
+        margin-top: 10%;
+        text-align: center;
         font-size: 12px;
-    }
-
-    #button-center {
-        padding: 8px;
-        font-size: 8px;
-        margin: 2%;
+        color: #f6f6f6;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        border-radius: 4px;
     }
 
     #text-center-first {
+        margin-top: 0%;
         font-size: 16px;
+        color: white;
+        z-index: 10;
+        text-align: center;
     }
 
-    #adveture-label {
-        font-size: 16px;
-
-
+    #button-center {
+        background-color: #ED981F;
+        color: white;
+        border: 0px;
+        width: 200px;
+        padding: 8px 5px 8px 10px;
+        margin-bottom: -5%;
+        font-size: 14px;
+        font-weight: 500;
     }
 
-    #reviews-label {
-        font-size: 16px;
+    #float-icon {
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        top: 40%;
+        right: 7%;
+        background-color: #fafafa;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 5px 5px 3px rgba(48, 48, 48, 0.616);
+        z-index: 100;
     }
 
-    .container-4 {
-        top: 0px;
+    #text-info-adventure {
+        font-size: 15px;
+        text-decoration: none !important;
     }
 
-    #last-text {
+    .container-adventure-1 {
+        min-height: 250px;
+    }
+
+    .container-adventure-2 {
+        min-height: 250px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .image-card {
+
+        min-width: 390px;
+        max-width: 390px;
+        overflow: hidden;
+    }
+
+    .image-card-4 {
+
+        min-width: 390px;
+        max-width: 390px;
+        overflow: hidden;
+    }
+
+    #view-more {
+        background: rgba(255, 255, 255, 0.438);
+        padding-top: 40%;
+        padding-bottom: 50%;
+        color: #f6f6f6;
+    }
+
+    #logo-footer {
+        width: 120px;
+    }
+
+    #location-text-pargraph {
+        color: white;
+        margin-bottom: 2%;
         font-size: 16px;
     }
 
     #map {
-        margin-bottom: 80px;
+
+        position: relative;
+        top: 40px;
+        width: 70%;
+        overflow: hidden;
+        margin-bottom: 0%;
     }
+
+    #img-social {
+        width: 25%;
+        padding: 5%;
+    }
+
+    #akvasoft-text {
+        padding-top: 5%;
+        text-align: left;
+        font-size: 16px;
+        color: white;
+    }
+
 }

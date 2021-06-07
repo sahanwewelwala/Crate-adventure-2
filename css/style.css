@@ -163,7 +163,7 @@ svg {
     background-size: cover;
     background-color: red;
     min-height: 300px;
-
+    margin-bottom: 3%;
 }
 
 .text-info-adventure {
@@ -175,6 +175,7 @@ svg {
     background-image: url(../assets/mountain-view.jpg);
     background-size: cover;
     text-decoration: none;
+    background-color: white;
     color: white;
     min-height: 300px;
 }
@@ -198,7 +199,13 @@ a:hover {
 }
 
 .video {
+
     margin-top: 5%;
+}
+
+iframe {
+    width: 100%;
+    height: 650px;
 }
 
 .review {
