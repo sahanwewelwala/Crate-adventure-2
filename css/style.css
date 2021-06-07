@@ -313,6 +313,10 @@ iframe {
     color: #f6f6f6;
 }
 
+#footer-img {
+    margin-bottom: -10px;
+}
+
 .footer {
     background-color: #292929;
     min-height: 600px;
