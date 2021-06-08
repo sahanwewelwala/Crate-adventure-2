@@ -32,7 +32,7 @@
         position: fixed;
         width: 40px;
         height: 40px;
-        top: 40%;
+        top: 65%;
         right: 7%;
         background-color: #fafafa;
         color: #FFF;
@@ -60,11 +60,28 @@
         height: 250px;
     }
 
+    .review-content {
+
+        min-width: 500%;
+    }
+
+    .review-container {
+        overflow-x: scroll !important;
+        margin-top: -24%;
+        margin-left: 3%;
+
+
+
+
+    }
+
+
     .image-card {
 
         min-width: 390px;
         max-width: 390px;
         overflow: hidden;
+        margin-bottom: 20px;
     }
 
     .image-card-4 {
@@ -72,6 +89,7 @@
         min-width: 390px;
         max-width: 390px;
         overflow: hidden;
+        margin-bottom: 20px;
     }
 
     #view-more {

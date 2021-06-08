@@ -208,18 +208,45 @@ iframe {
     height: 650px;
 }
 
-.review {
-    overflow: hidden;
+.review-content {
+
+    min-width: 135%;
+
+
+
+}
+
+
+
+.direction {
+    flex-direction: row;
+}
+
+/* hide scrollbar but allow scrolling */
+element {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+element::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
 }
 
 .review-container {
-    position: relative;
+    overflow-x: scroll !important;
     margin-top: -24%;
-    z-index: 10;
-    width: 100%;
     margin-left: 16%;
 
+
+
+
 }
+
+
 
 #label-review-title {
     font-size: 25px;
@@ -236,6 +263,7 @@ iframe {
     background-color: #ffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 20px;
+
 
 }
 
@@ -274,9 +302,9 @@ iframe {
     text-align: center;
     min-width: 306px;
     max-width: 306px;
-    min-height: 350px;
-    max-height: 350px;
-    margin-bottom: 10%;
+    min-height: 340px;
+    max-height: 340px;
+
 
 
 
@@ -293,7 +321,6 @@ iframe {
     max-width: 306px;
     min-height: 309px;
     max-height: 309px;
-    margin-bottom: 10%;
 
 
 
@@ -304,7 +331,7 @@ iframe {
     width: 100%;
 }
 
-#view-more {
+#element1 {
     background: rgba(255, 255, 255, 0.438);
     padding-top: 50%;
     padding-bottom: 50%;
