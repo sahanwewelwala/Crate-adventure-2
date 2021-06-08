@@ -331,6 +331,16 @@ element::-webkit-scrollbar {
     width: 100%;
 }
 
+.image-card :hover {
+    transform: scale(1.1);
+}
+
+.image-card-4 :hover {
+    transform: scale(1.5);
+}
+
+
+
 #element1 {
     background: rgba(255, 255, 255, 0.438);
     padding-top: 50%;
@@ -361,8 +371,8 @@ element::-webkit-scrollbar {
 }
 
 #location-text-pargraph {
+    margin: -1%;
     color: white;
-    margin-bottom: 2%;
     font-size: 25px;
 }
 
@@ -375,17 +385,22 @@ element::-webkit-scrollbar {
     top: -10px;
 }
 
-#map {
 
+.mapouter {
     position: relative;
-    top: 40px;
-    width: 90%;
-    overflow: hidden;
-    margin-bottom: 0%;
+    margin-top: 50px;
+    text-align: right;
+    height: 400px;
+    width: 400px;
 }
 
-.map {
+.gmap_canvas {
+
     overflow: hidden;
+
+    background: none !important;
+    height: 400px;
+    width: 400px;
 }
 
 hr.new4 {
@@ -399,22 +414,22 @@ hr.new4 {
 .social-media {
     margin-top: -2%;
     margin: 0%;
+    text-align: center;
 }
 
-.align-center {
-    margin-right: 20%;
-    margin-left: 20%;
-    display: block;
 
 
-}
 
-#img-social {
-    padding: 5%;
+
+.social-icons {
+
+    align-items: baseline;
+    color: #ED981F;
+    margin: 10px;
 }
 
 #akvasoft-text {
-    padding-top: 5%;
+    padding-top: 3%;
     text-align: right;
     font-size: 25px;
     color: white;

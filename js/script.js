@@ -7,3 +7,8 @@ function changeText(idElement) {
         }
     }
 }
+document.addEventListener("DOMContentLoaded", function() {
+    let lightbox = new Dbox();
+    lightbox.run();
+});
+

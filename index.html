@@ -11,9 +11,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/mobile-style.css">
-  <script src="./js/script.js">
+  <link rel="stylesheet" href="./css/lightbox.min.css">
+  <script src="https://kit.fontawesome.com/8ed2edf01a.js" crossorigin="anonymous"></script>
 
-  </script>
+  <script src="./js/lightbox-plus-jquery.min.js"></script>
+  <script src="./js/script.js">  </script>
 
   <title>Crate Adventure</title>
 </head>
@@ -249,14 +251,14 @@
         <div class="row row-cols-auto">
           <div class="col">
             <div class="image-card">
-              <a href="#">
+              <a href="../assets/gallery-1.PNG" data-lightbox="mygallery" data-title="MOUNTAIN VIEW">
                 <img src="./assets/gallery-1.PNG" alt="gallery-img-1" id="image-gallery">
               </a>
             </div>
           </div>
           <div class="col">
             <div class="image-card">
-              <a href="#">
+              <a href="#" data-width="960" data-height="600">
                 <img src="./assets/gallery-2.PNG" alt="gallery-img-2" id="image-gallery">
               </a>
             </div>
@@ -302,9 +304,9 @@
               </div>
             </div>
             <div class="col">
-              <div class="image-card-4">
+              <div class="image-card">
                 <a data-toggle="collapse" href="#collapseExample">
-
+                  <img src="./assets/gallery-4.PNG" alt="gallery-4" id="image-gallery">
                 </a>
               </div>
             </div>
@@ -332,9 +334,9 @@
               </div>
             </div>
             <div class="col">
-              <div class="image-card-4">
+              <div class="image-card">
                 <a data-toggle="collapse" href="#collapseExample">
-
+                  <img src="./assets/gallery-4.PNG" alt="gallery-4" id="image-gallery">
                 </a>
               </div>
             </div>
@@ -362,9 +364,9 @@
               </div>
             </div>
             <div class="col">
-              <div class="image-card-4">
+              <div class="image-card">
                 <a data-toggle="collapse" href="#collapseExample">
-
+                  <img src="./assets/gallery-4.PNG" alt="gallery-4" id="image-gallery">
                 </a>
               </div>
             </div>
@@ -372,8 +374,6 @@
 
 
         </div>
-
-
 
     </section>
   </main>
@@ -396,7 +396,13 @@
 
           </div>
           <div class="col-sm map">
-            <img src="./assets/Map.PNG" alt="map" id="map">
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=crate%20adventure%20&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+              </div>
+            </div>
 
           </div>
         </div>
@@ -407,9 +413,10 @@
         <div class="col-sm"></div>
         <div class="col-sm ">
           <div class="align-center">
-            <img src="./assets/fb icon.png" alt="fb-icon" width="115px" id="img-social">
-            <img src="./assets/instagram-icon.png" alt="inta-icon" width="100px" id="img-social">
-            <img src="./assets/youtube-icon.png" alt="youtube-icon" width="140px" id="img-social">
+            <i class="fab fa-facebook-square fa-3x  social-icons"></i>
+            <i class="fab fa-instagram fa-3x social-icons"></i>
+            <i class="fab fa-youtube fa-3x social-icons"></i>
+
           </div>
         </div>
         <div class="col-sm">

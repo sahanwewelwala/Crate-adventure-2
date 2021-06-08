@@ -109,20 +109,31 @@
         font-size: 16px;
     }
 
-    #map {
-
+    .mapouter {
         position: relative;
-        top: 40px;
-        width: 70%;
+        margin-top: 50px;
+        text-align: right;
+        height: 400px;
+        width: 400px;
+    }
+
+    .gmap_canvas {
+
         overflow: hidden;
-        margin-bottom: 0%;
+
+        background: none !important;
+        height: 250px;
+        width: 250px;
     }
 
-    #img-social {
-        width: 25%;
-        padding: 5%;
+    .align-center {
+        margin-right: 20%;
+        margin-left: 30%;
+        display: block;
+    
+    
     }
-
+    
     #akvasoft-text {
         padding-top: 5%;
         text-align: left;
