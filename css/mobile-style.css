@@ -99,6 +99,42 @@
         color: #f6f6f6;
     }
 
+    .modal-content {
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        border-radius: 4px;
+        position: relative;
+        padding-left: 2%;
+        padding-top: 20px;
+    }
+
+    #model-img {
+        width: 50%;
+        position: relative;
+
+        z-index: 100;
+
+    }
+
+
+    #model-title {
+
+        font-size: 25px;
+        font-size: 16px;
+        overflow: hidden;
+        min-height: 20px;
+        margin-bottom: 10%;
+    }
+
+    #text-modal {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+
+
+        padding-right: 5%;
+    }
+
     #logo-footer {
         width: 120px;
     }
@@ -130,10 +166,10 @@
         margin-right: 20%;
         margin-left: 30%;
         display: block;
-    
-    
+
+
     }
-    
+
     #akvasoft-text {
         padding-top: 5%;
         text-align: left;

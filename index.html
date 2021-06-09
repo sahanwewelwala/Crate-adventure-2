@@ -11,11 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/mobile-style.css">
-  <link rel="stylesheet" href="./css/lightbox.min.css">
+
   <script src="https://kit.fontawesome.com/8ed2edf01a.js" crossorigin="anonymous"></script>
 
-  <script src="./js/lightbox-plus-jquery.min.js"></script>
-  <script src="./js/script.js">  </script>
 
   <title>Crate Adventure</title>
 </head>
@@ -226,6 +224,7 @@
     </div>
 
 
+
     <section>
       <div class="container" id="last-text">
         <label id="crate-adventures-label">CRATE ADVENTURES</label>
@@ -247,11 +246,12 @@
           will feature top in the class, high-end ATVs that exceeds tourist expectation. </p>
 
       </div>
+
       <div class="container">
         <div class="row row-cols-auto">
           <div class="col">
             <div class="image-card">
-              <a href="../assets/gallery-1.PNG" data-lightbox="mygallery" data-title="MOUNTAIN VIEW">
+              <a id="button">
                 <img src="./assets/gallery-1.PNG" alt="gallery-img-1" id="image-gallery">
               </a>
             </div>
@@ -273,7 +273,6 @@
           <div class="col">
             <div class="image-card-4">
               <a data-toggle="collapse" href="#collapseExample">
-
                 <p id="element1" onClick="javascript:changeText(1)">VIEW MORE</p>
               </a>
             </div>
@@ -286,6 +285,38 @@
               <div class="image-card">
                 <a href="#">
                   <img src="./assets/gallery-1.PNG" alt="gallery-img-1" id="image-gallery">
+
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="image-card">
+                <a href="#">
+                  <img src="./assets/gallery-2.PNG" alt="gallery-img-2" id="image-gallery">
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="image-card">
+                <a href="#">
+                  <img src="./assets/gallery-3.PNG" alt="gallery-img-3" id="image-gallery">
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="image-card">
+                <a data-toggle="collapse" href="#collapseExample">
+                  <img src="./assets/gallery-4.PNG" alt="gallery-4" id="image-gallery">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-auto">
+            <div class="col">
+              <div class="image-card">
+                <a href="#">
+                  <img src="./assets/gallery-1.PNG" alt="gallery-img-1" id="image-gallery">
+
                 </a>
               </div>
             </div>
@@ -341,41 +372,46 @@
               </div>
             </div>
           </div>
-          <div class="row row-cols-auto">
-            <div class="col">
-              <div class="image-card">
-                <a href="#">
-                  <img src="./assets/gallery-1.PNG" alt="gallery-img-1" id="image-gallery">
-                </a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="image-card">
-                <a href="#">
-                  <img src="./assets/gallery-2.PNG" alt="gallery-img-2" id="image-gallery">
-                </a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="image-card">
-                <a href="#">
-                  <img src="./assets/gallery-3.PNG" alt="gallery-img-3" id="image-gallery">
-                </a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="image-card">
-                <a data-toggle="collapse" href="#collapseExample">
-                  <img src="./assets/gallery-4.PNG" alt="gallery-4" id="image-gallery">
-                </a>
-              </div>
-            </div>
-          </div>
-
-
         </div>
 
+
     </section>
+    <div class="bg-modal">
+      <img src="/assets/mountain-view-1.jpg" alt="gallery-img-1" id="model-img">
+      <div class="modal-content">
+        <div class="close">
+          +
+        </div>
+        <label id="model-title">Crate Adventure</label>
+        <P id="text-modal">
+          Enjoy an adventure filled time at Crate Adventure
+          ATV Park! Having a hectic week ? In Sri Lanka for a vacation ?
+          Enjoy an ATV ride at the closest adventure getaway, just
+          40 mins drive from Colombo at South Asia's First ATV Adventure
+          Park extending over 50 acres of natural forest terrain, featuring
+          high-end ATVs by joining hands with the World's leading brand.
+          Can Am by BRP Canada,
+          <br>
+          <br>
+          Reserve your seats soon
+          <br>
+          Call us on
+          <br>
+          494717727777
+          <br>
+          Visit www.crateadventure.com
+          <br>
+          <br>
+          atv #atvriding #crateadventurestilanka #tourist
+          4#srllanka #travelsrilanka #gampaha #colombo #travelguide
+          #travelguidesrilanka #travelblogger#tadventure #weekendgetaway
+          #tsrilankatravel #travelguide #travelguidesrilanka #atv #atvriding
+          #adventuretime #adventure #toursrilanka #colombo #vacation
+        </P>
+
+      </div>
+
+    </div>
   </main>
 
   <footer>
@@ -435,6 +471,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script src="./js/script.js">  </script>
 
 
 

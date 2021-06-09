@@ -7,8 +7,14 @@ function changeText(idElement) {
         }
     }
 }
-document.addEventListener("DOMContentLoaded", function() {
-    let lightbox = new Dbox();
-    lightbox.run();
+document.getElementById("button").addEventListener('click',
+function (){
+    document.querySelector('.bg-modal').style.display = 'flex';
 });
 
+document.querySelector('.close').addEventListener('click', 
+function (){
+    document.querySelector('.bg-modal').style.display =  'none';
+});
+
+ 
