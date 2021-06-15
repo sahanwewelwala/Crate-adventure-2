@@ -211,10 +211,7 @@ iframe {
 .review-content {
     display: flex;
     align: right;
-    min-width: 149%;
-
-
-
+    min-width: 140%;
 }
 
 
@@ -253,9 +250,6 @@ element::-webkit-scrollbar {
 }
 
 .review-card {
-    min-height: 250px;
-    min-width: 280px;
-    max-width: 280px;
     padding: 8%;
     background-color: #ffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -274,7 +268,6 @@ element::-webkit-scrollbar {
 
 .triangle-bottom {
     overflow: hidden;
-
     background-color: #ED981F;
     left: 0;
 
@@ -299,32 +292,45 @@ element::-webkit-scrollbar {
 
 .image-card {
     text-align: center;
-    min-width: 306px;
-    max-width: 306px;
-    min-height: 340px;
-    max-height: 340px;
     cursor: pointer;
-
-
+    overflow: hidden;
+    margin-bottom: 5%;
 
 
 }
 
 .image-card-4 {
-
-    background-image: url(../assets/gallery-4.PNG);
+    position: relative;
+    text-align: center;
+    color: white;
+    background-size: auto;
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    min-width: 306px;
-    max-width: 306px;
-    min-height: 309px;
-    max-height: 309px;
-
-
+    margin-bottom: 5%;
 
 }
+
+#element1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    color: red;
+}
+
+.centered {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20PX;
+
+}
+
 
 #image-gallery {
 
@@ -335,9 +341,7 @@ element::-webkit-scrollbar {
     transform: scale(1.1);
 }
 
-.image-card-4 :hover {
-    transform: scale(1.5);
-}
+
 
 #model-img {
     width: 25%;
@@ -392,12 +396,6 @@ element::-webkit-scrollbar {
 
 
 
-#element1 {
-    background: rgba(255, 255, 255, 0.438);
-    padding-top: 50%;
-    padding-bottom: 50%;
-    color: #f6f6f6;
-}
 
 
 #footer-img {
@@ -468,10 +466,6 @@ hr.new4 {
     text-align: center;
 }
 
-
-
-
-
 .social-icons {
 
     align-items: baseline;
@@ -479,3 +473,9 @@ hr.new4 {
     margin: 10px;
 }
 
+#akvasoft-text {
+    padding-top: 3%;
+    text-align: right;
+    font-size: 25px;
+    color: white;
+}
