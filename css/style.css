@@ -441,15 +441,15 @@ element::-webkit-scrollbar {
     text-align: right;
     height: 400px;
     width: 400px;
+    float: right;
 }
 
 .gmap_canvas {
-
     overflow: hidden;
-
     background: none !important;
     height: 400px;
     width: 400px;
+
 }
 
 hr.new4 {
