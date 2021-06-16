@@ -1,11 +1,12 @@
-function changeText(idElement) {
-    var element = document.getElementById('element' + idElement);
-    if (idElement === 2 ) {
-        if (element.innerHTML === 'VIEW MORE') element.innerHTML = 'Close';
-        else {
-            element.innerHTML = 'VIEW MORE';
-        }
-    }
+function clearcontent(elementID) {
+    document.getElementById(elementID).innerHTML = "";
+    const img = document.getElementById("image-gallery-1");
+    img.src = "./assets/gallery-4.PNG";
+}
+function addcontent(elementID) {
+    document.getElementById("clear").innerHTML = "VIEW MORE";
+    const img = document.getElementById("image-gallery-1");
+    img.src = "./assets/gallery-4-text-center.png";
 }
 document.getElementById("button").addEventListener('click',
 function (){
@@ -17,4 +18,3 @@ function (){
     document.querySelector('.bg-modal').style.display =  'none';
 });
 
- 

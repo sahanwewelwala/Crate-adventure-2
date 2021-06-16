@@ -331,15 +331,16 @@ element::-webkit-scrollbar {
 
 }
 
+#image-gallery-1 {
+
+    width: 100%;
+}
 
 #image-gallery {
 
     width: 100%;
 }
 
-.image-card :hover {
-    transform: scale(1.1);
-}
 
 
 
