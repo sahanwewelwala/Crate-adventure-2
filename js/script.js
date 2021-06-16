@@ -11,6 +11,8 @@ function addcontent(elementID) {
 document.getElementById("button").addEventListener('click',
 function (){
     document.querySelector('.bg-modal').style.display = 'flex';
+    const img = document.getElementById("model-img");
+    img.src = "./assets/mountain-view-1.jpg";
 });
 
 document.querySelector('.close').addEventListener('click', 
@@ -18,3 +20,10 @@ function (){
     document.querySelector('.bg-modal').style.display =  'none';
 });
 
+
+document.getElementById("button-2").addEventListener('click',
+function (){
+    document.querySelector('.bg-modal').style.display = 'flex';
+    const img = document.getElementById("model-img");
+    img.src = "./assets/gallery-3.PNG";
+});
