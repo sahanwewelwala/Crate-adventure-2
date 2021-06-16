@@ -111,6 +111,7 @@ svg {
 
 .text-center-adventure-card {
     background-image: url(../assets/mountain-view.jpg );
+    box-shadow: inset 0 0 0 2000px rgba(255, 60, 0, 0.096);
     background-color: #ED981F;
 }
 
@@ -156,6 +157,7 @@ svg {
     text-align: center;
     position: relative;
     top: 200px;
+
 }
 
 .container-adventure-1 {
@@ -164,6 +166,7 @@ svg {
     background-color: red;
     min-height: 300px;
     margin-bottom: 3%;
+    box-shadow: inset 0 0 0 2000px rgba(34, 34, 34, 0.459);
 }
 
 .text-info-adventure {
@@ -172,12 +175,13 @@ svg {
 }
 
 .container-adventure-2 {
-    background-image: url(../assets/mountain-view.jpg);
+    background-image: url(../assets/mountain-view-1.jpg);
     background-size: cover;
     text-decoration: none;
     background-color: white;
     color: white;
     min-height: 300px;
+    box-shadow: inset 0 0 0 2000px rgba(34, 34, 34, 0.459);
 }
 
 a {
