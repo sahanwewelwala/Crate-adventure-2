@@ -346,8 +346,8 @@ element::-webkit-scrollbar {
 
 #model-img {
     width: 25%;
-    position: absolute;
-    left: 10%;
+    position: relative;
+    right: -80px;
     z-index: 100;
 
 }
