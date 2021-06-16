@@ -18,6 +18,8 @@ function (){
 document.querySelector('.close').addEventListener('click', 
 function (){
     document.querySelector('.bg-modal').style.display =  'none';
+    const img = document.getElementById("model-img");
+    img.src = "./assets/mountain-view-1.jpg";
 });
 
 
