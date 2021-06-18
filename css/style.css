@@ -3,6 +3,10 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.container {
+    max-width: 1540px;
+}
+
 .navbar-nav {
 
     margin-left: auto;
@@ -304,6 +308,7 @@ element::-webkit-scrollbar {
 }
 
 .image-card-4 {
+
     position: relative;
     text-align: center;
     color: white;
@@ -332,8 +337,11 @@ element::-webkit-scrollbar {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20PX;
+    max-height: 500px;
+
 
 }
+
 
 #image-gallery-1 {
 
@@ -346,6 +354,12 @@ element::-webkit-scrollbar {
 }
 
 
+#clear {
+
+    max-height: 500px !important;
+
+    flex-grow: 1;
+}
 
 
 #model-img {
